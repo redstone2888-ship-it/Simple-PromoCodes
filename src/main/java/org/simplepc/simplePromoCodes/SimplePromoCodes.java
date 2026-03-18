@@ -19,3 +19,5 @@ public final class SimplePromoCodes extends JavaPlugin {
         getLogger().info("Simple PromoCodes has been disabled!");
     }
 }
+
+// press f
