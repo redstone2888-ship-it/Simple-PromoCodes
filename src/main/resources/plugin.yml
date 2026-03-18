@@ -1,0 +1,11 @@
+name: Simple-PromoCodes
+version: '1.0'
+main: org.simplepc.simplePromoCodes.SimplePromoCodes
+api-version: '1.21'
+commands:
+  simplepc:
+    description: Main plugin command
+    usage: /simplepc <help>
+  code:
+    description: Redeem promo-code
+    usage: /code <code>

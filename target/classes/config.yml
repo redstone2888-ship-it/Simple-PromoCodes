@@ -1,0 +1,9 @@
+# Simple PromoCodes v1.0
+# Configuration file
+
+promos:
+  # Example promo:
+  free:                          # Code for activation (/code free)
+    valid: true                  # Is valid? if false, plugin will display  error "Promocode is invalid!"
+    reward: "give @p diamond 32" # Command to give reward. @p is pointer to player name
+    used: []                     # Players, who used that promo
